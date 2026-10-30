@@ -1,18 +1,18 @@
-# 40. Renewable Energy Distribution Network Using Kruskal’s Algorithm
+ Renewable Energy Distribution Network Using Kruskal’s Algorithm
 
-## 1. Title
+ 1. Title
 
 Development of a Renewable Energy Distribution Graph Using Kruskal’s Algorithm.
 
-## 2. Problem Statement
+2. Problem Statement
 
 To develop a weighted graph representing a renewable energy distribution network consisting of power plants, substations, and weighted transmission links, and apply Kruskal’s algorithm to construct a minimum-cost connected network without forming cycles.
 
-## 3. Aim
+ 3. Aim
 
 To implement Kruskal’s algorithm on a weighted graph to construct a Minimum Spanning Tree (MST) for a renewable energy distribution network.
 
-## 4. Objectives
+ 4. Objectives
 
 - To represent power plants and substations as vertices of a graph.
 - To represent transmission links as weighted edges.
@@ -20,7 +20,7 @@ To implement Kruskal’s algorithm on a weighted graph to construct a Minimum Sp
 - To select minimum-cost edges without forming cycles.
 - To calculate the minimum total cost required to connect all locations.
 
-## 5. Theory
+ 5. Theory
 
 A graph is a non-linear data structure consisting of vertices and edges. In a renewable energy distribution network, vertices represent solar power plants, wind power plants, substations, and distribution centers. Edges represent transmission lines connecting these locations, and their weights indicate the cost of installation or transmission.
 
@@ -28,7 +28,7 @@ Kruskal’s algorithm is a greedy algorithm used to find the Minimum Spanning Tr
 
 For a graph containing V vertices, the Minimum Spanning Tree contains V − 1 edges. Kruskal’s algorithm helps identify a cost-effective network for distributing renewable energy.
 
-## 6. Algorithm
+6. Algorithm
 
 1. Start.
 2. Create vertices representing power plants, substations, and the distribution center.
@@ -42,7 +42,7 @@ For a graph containing V vertices, the Minimum Spanning Tree contains V − 1 ed
 10. Calculate and display the total minimum cost.
 11. Stop.
 
-## 7. Flowchart
+7. Flowchart
 
 Start  
 ↓  
@@ -64,6 +64,6 @@ If Yes: Display the Minimum Spanning Tree and total cost
 ↓  
 Stop
 
-## 8. Conclusion
+8. Conclusion
 
 The renewable energy distribution network can be represented using a weighted graph, where vertices represent power plants and substations and edges represent transmission links. Kruskal’s algorithm selects minimum-weight edges without creating cycles to form a Minimum Spanning Tree. Thus, it helps determine a minimum-cost connected network and demonstrates the practical application of graph algorithms in renewable energy distribution.
